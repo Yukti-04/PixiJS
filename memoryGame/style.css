@@ -41,10 +41,10 @@
 #container h1{
     font-family: 'gang_of_threeregular';
     /* text-align: center; */
-    padding-left: 255px;
-    padding-top: 10px;
+    padding-left: 375px;
+    padding-top: 20px;
     font-size: 90px;
-    color: tomato;
+    color: red;
     text-shadow: 5px 5px 5px black;
     text-transform: uppercase;
     font-weight:normal;
@@ -70,4 +70,10 @@
     font-weight: normal;
     font-style: normal;
 
+}
+#anchorImage{
+    width: 50%;
+    position: relative;
+    left:50px;
+    border: 1px solid white;
 }

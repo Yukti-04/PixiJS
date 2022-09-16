@@ -16,7 +16,7 @@ export function createGame(div) {
 
 const game = createGame(document.getElementById('game'));
 loadAssets(game,[
-    { name: "back", url: "./Assets/naruto_back.png" },
+    { name: "back", url: "./Assets/cardBack.png" },
     { name: "front", url: "./Assets/cardSprite.png" },
   ], () => {
     console.log('starting game');
