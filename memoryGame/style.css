@@ -39,18 +39,35 @@
     /* margin: 20px; */
 }
 #container h1{
-    font-family: 'Delius Unicase', cursive;
+    font-family: 'gang_of_threeregular';
     /* text-align: center; */
-    padding-left: 320px;
+    padding-left: 255px;
     padding-top: 10px;
-    font-size: 70px;
+    font-size: 90px;
     color: tomato;
     text-shadow: 5px 5px 5px black;
     text-transform: uppercase;
+    font-weight:normal;
+    font-style:normal;
 }
 #container{
     width:1920px;
     height: 1200px;
     background-image: url("./Assets/background1.jpg");
     margin: 0%;
+}
+@font-face {
+    font-family: 'gang_of_threeregular';
+    src: url('./font/go3v2-webfont.woff2') format('woff2'),
+    url('./font/go3v2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'a_asian_ninjaregular';
+    src: url('./font/aasianninja-webfont.woff2') format('woff2'),
+    url('./font/aasianninja-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

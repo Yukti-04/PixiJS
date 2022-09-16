@@ -8,7 +8,7 @@ function preload(e) {
     console.log("hide loader");
     setTimeout(() => {
       document.getElementById("loader").style.display = "none";
-    }, 500);
+    }, 1000);
   }
   console.log(e.progress);
 }

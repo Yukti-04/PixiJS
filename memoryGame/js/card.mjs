@@ -54,13 +54,13 @@ import {
   }
   
   export function shuffle(array) {
-    array.sort(() => Math.floor(Math.random()*array.length));
-    // for(var i=0;i<12;i++){
-    //   var from=Math.floor(Math.random()*4);
-    //   var to=Math.floor(Math.random()*4);
-    //   var temp=array[from];
-    //   array[from]=array[to];
-    //   array[to]=temp;
-    // }
+    for (var k =0; k<80; k++)
+    {
+        var a = Math.floor(Math.random() * array.length);
+        var b = Math.floor(Math.random() * array.length);
+        var temp = array[a];
+        array[a] = array[b];
+        array[b] = temp;
+    }
     return array;
   }
