@@ -37,6 +37,7 @@
     left: 200px;
     padding: 5px;
     /* margin: 20px; */
+    opacity: 0.5;
 }
 #container h1{
     font-family: 'gang_of_threeregular';
@@ -71,9 +72,10 @@
     font-style: normal;
 
 }
-#anchorImage{
-    width: 50%;
-    position: relative;
-    left:50px;
-    border: 1px solid white;
+img{
+    
+    position: absolute;
+    /* right: 70%;
+    top: 50%;
+    width: 50%; */
 }
