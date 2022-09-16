@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+#loader{
+    /* background-color: black; */
+    background-image: url("./Assets/background2.jpg");
+    width: 100%;
+    height:100%;
+    position: fixed;
+    background-size: cover;
+    top:0;
+    left:0;
+    align-content: center;
+    text-align: center;
+}
+#barContainer{
+    position:absolute;
+    height:50px;
+    width:200px;
+    bottom:10%;
+    left:50%;
+    margin-left:-100px;
+    color:white;
+}
+#bar{
+    width:0;
+    height:5px;
+    background-color: green;
+}
+#game{
+    width:1920px;
+    height:1200px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    padding: 5px;
+    /* margin: 20px; */
+}
+#container h1{
+    font-family: 'Delius Unicase', cursive;
+    /* text-align: center; */
+    padding-left: 320px;
+    padding-top: 10px;
+    font-size: 70px;
+    color: tomato;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+}
+#container{
+    width:1920px;
+    height: 1200px;
+    background-image: url("./Assets/background1.jpg");
+    margin: 0%;
+}
