@@ -13,12 +13,15 @@ export function createGame(div) {
     div.appendChild(game.view);
     return game;
 }
-
 const game = createGame(document.getElementById('game'));
+
 loadAssets(game,[
     { name: "back", url: "./Assets/cardBack.png" },
     { name: "front", url: "./Assets/cardSprite.png" },
   ], () => {
     console.log('starting game');
-    gameStart(game);
+    // gameStart(game);
   });
+  setTimeout(() => {
+    gameStart(game);
+  }, 1000);
