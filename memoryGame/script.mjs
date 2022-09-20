@@ -24,4 +24,4 @@ loadAssets(game,[
   });
   setTimeout(() => {
     gameStart(game);
-  }, 1000);
+  }, 2000);
